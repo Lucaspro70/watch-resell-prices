@@ -1,0 +1,28 @@
+{
+  "data_sources": {
+    "facebook_marketplace": {
+      "enabled": true,
+      "api_key": null,
+      "rate_limit_delay": 2.0
+    },
+    "ebay": {
+      "enabled": true,
+      "api_key": null,
+      "rate_limit_delay": 1.0
+    },
+    "retail_sources": {
+      "enabled": true,
+      "sources": ["watch_station", "chrono24", "jomashop"]
+    }
+  },
+  "recommendations": {
+    "excellent_margin": 30.0,
+    "good_margin": 15.0,
+    "fair_margin": 5.0
+  },
+  "display": {
+    "max_recent_sales": 10,
+    "use_colors": true,
+    "cache_duration_hours": 24
+  }
+}
